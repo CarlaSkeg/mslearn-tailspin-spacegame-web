@@ -58,7 +58,7 @@ steps:
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
   
-- trigger:
+trigger:
   branches:
     include:
     - '*'     # build all branches
